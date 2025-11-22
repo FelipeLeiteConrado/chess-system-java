@@ -18,6 +18,7 @@ public class Program {
         while (true) {
             try {
                 UI.clearScreen();
+                UI.printMatch(chessMatch);
                 UI.printBoard(chessMatch.getPieces());
                 System.out.println();
                 System.out.print("Source: ");
